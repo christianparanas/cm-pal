@@ -22,7 +22,7 @@
 			<input type="text" placeholder="Enter your first name">
 			<input type="text" placeholder="Enter your last name">
 			<input type="number" placeholder="Enter your age" >
-			<input type="email" placeholder="your email">
+			<input type="email" placeholder="Enter your email">
 			<input class="sub" type="submit" value="Send">
 		</div>
 	</div>
@@ -34,7 +34,8 @@
 
 	main {
 		font-family: 'Montserrat', sans-serif;
-		height: 98vh;
+		height: 100%;
+		min-height: 98vh;
 		background: #43294a;
 	}
 
@@ -112,6 +113,7 @@
 		border-radius: 8px;
 		background: #1f2937;
 		color: white;
+		font-family: 'Montserrat', sans-serif;
 	}
 
 	input::placeholder {
