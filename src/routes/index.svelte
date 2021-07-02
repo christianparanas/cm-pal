@@ -1,6 +1,6 @@
 
 <script>
-	export const chaps = [['Chapter 2'], ['Chapter 3'], ['Chapter 4'], ['Chapter 5'], ['Chapter 6'], ['Chapter 7'], ['Chapter 8'], ['Chapter 9']];
+	export const chaps = [['Chapter 2', 'chapter2'], ['Chapter 3', 'chapter3'], ['Chapter 4', 'chapter4'], ['Chapter 5', 'chapter5'], ['Chapter 6', 'chapter6'], ['Chapter 7', 'chapter7'], ['Chapter 8', 'chapter8'], ['Chapter 9', 'chapter9']];
 </script>
 
 <main>
@@ -8,21 +8,19 @@
 
 	<div class="links">
 		{#each chaps as chap}
-			<button class="pushable">
-			  <span class="btn">
-			    {chap[0]}
-			  </span>
-			</button>
+			<a href={`/${chap[1]}`}>
+				<button class="pushable">
+				  <span class="btn">
+				    {chap[0]}
+				  </span>
+				</button>
+			</a>
 		{/each}
 	</div>
 </main>
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-	body {
-		padding: 0;
-	}
 
 	main {
 		height: 98vh;
