@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@iarna/toml@^2.2.5":
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
+  integrity sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==
+
 "@rollup/pluginutils@^4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-4.1.0.tgz#0dcc61c780e39257554feb7f77207dceca13c838"
@@ -9,6 +14,21 @@
   dependencies:
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
+
+"@sveltejs/adapter-netlify@^1.0.0-next.17":
+  version "1.0.0-next.17"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.17.tgz#51fed8ea7bbc80377d438f3f6b651c3941a73930"
+  integrity sha512-HDFdNKQ87d1pdh9da0vIKDUS4JSYLXZslk5vM2LU2Gwdm+CLRF+IDqZgavYdZsuMSZp/adFX82j7aV03gXABWQ==
+  dependencies:
+    "@iarna/toml" "^2.2.5"
+    esbuild "^0.12.5"
+
+"@sveltejs/adapter-vercel@next":
+  version "1.0.0-next.22"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.22.tgz#b6f237b696b128580aede6bb78973b1d649608c7"
+  integrity sha512-C9JL/4/CQR1BqEwyKFr6wCyejzIjwyC0nkA73TzGllIiPHxbJ3AykYZ4Ak7DFcZj9UNz8AmNbyzkuJTz3j2qJQ==
+  dependencies:
+    esbuild "^0.12.5"
 
 "@sveltejs/kit@next":
   version "1.0.0-next.119"
@@ -75,7 +95,7 @@ debug@^4.3.2:
   dependencies:
     ms "2.1.2"
 
-esbuild@^0.12.8:
+esbuild@^0.12.5, esbuild@^0.12.8:
   version "0.12.14"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.12.14.tgz#43157dbd0b36d939247d4eb4909a4886ac40f82e"
   integrity sha512-z8p+6FGiplR7a3pPonXREbm+8IeXjBGvDpVidZmGB/AJMsJSfGCU+n7KOMCazA9AwvagadRWBhiKorC0w9WJvw==
