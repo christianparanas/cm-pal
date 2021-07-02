@@ -1,9 +1,9 @@
 
-<title>Chapter 2</title>
+<title>Chapter 3</title>
 <main>
 	<div class="chapter chapter 2">
 		<div class="head">
-			<div class="tit">Chapter 2</div>
+			<div class="tit">Chapter 3</div>
 
 	
 		<button class="pushable">
@@ -17,10 +17,30 @@
 		</div>
 
 
-		<p><b>WELCOME TO HTML</b></p>
-		<p><b>Eastern Visayas State University</b></p>
-		<p><i>College of Engineering</i></p>
-		<p><b><i>Information Technology Department</i></b></p>
+		<p>
+			<b><u>Personal Information:</u><b>
+<pre>
+Last Name	:	Palana
+First Name	:	Juvie Ann
+Middle Name	:	Advento
+Age		:	20
+Birthday	:	July 20, 2000
+</pre>
+
+<b><u>Educational Attainment</u></b>
+<pre>
+
+Elementary      : 	MacArthur Central School
+Year Graduated  :	2011-2012
+	
+Secondary	:	MacArthur National High Sschool
+Year Graduated	:	2015-2016
+	
+Tertiary	:	Eastern Visayas State University
+Degree		:	Bachelor of Science in Informatin Technology
+Year Graduated  :	2021
+</pre>
+		</p>
 	</div>
 </main>
 
@@ -90,6 +110,7 @@
 
 	p {
 		margin-top: 0;
+		overflow-x: scroll;
 	}
 
 	@media only screen and (max-width: 700px) {
