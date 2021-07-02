@@ -110,7 +110,7 @@ Year Graduated  :	2021
 
 	p {
 		margin-top: 0;
-		overflow-x: scroll;
+		overflow-x: auto;
 	}
 
 	@media only screen and (max-width: 700px) {
@@ -120,6 +120,10 @@ Year Graduated  :	2021
 			padding-top: 50px;
 			color: white;
 		}
+
+			p {
+		margin-top: 0;
+	}
 	}
 	
 </style>

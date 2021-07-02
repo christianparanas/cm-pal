@@ -1,6 +1,6 @@
 
 <script>
-	export const chaps = [['Chapter 2', 'chapter2'], ['Chapter 3', 'chapter3'], ['Chapter 4', 'chapter4'], ['Chapter 5', 'chapter5'], ['Chapter 6', 'chapter6'], ['Chapter 7', 'chapter7'], ['Chapter 8', 'chapter8'], ['Chapter 9', 'chapter9']];
+	export const chaps = [['Chapter 2', 'chapter2'], ['Chapter 3', 'chapter3'], ['Chapter 4', 'chapter4'], ['Chapter 5', 'chapter5'], ['Chapter 6', 'chapter6'], ['Chapter 7', 'chapter7'], ['Chapter 8', 'chapter8']];
 </script>
 
 <main>
@@ -44,7 +44,7 @@
 
 	.links {
 		display: grid;
-		grid-template-columns: repeat(8, 1fr);
+		grid-template-columns: repeat(7, 1fr);
 		grid-gap: 15px;
 		width: fit-content;
 		margin: 100px auto 0;
