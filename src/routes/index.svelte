@@ -23,7 +23,8 @@
 	@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 	main {
-		height: 98vh;
+		min-height: 98vh;
+                height: 100%;
 		background: #43294a;
 	}
 
